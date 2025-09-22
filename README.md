@@ -25,3 +25,8 @@ Flujo funcional del programa (qué implementar)
 - Mostrar resultados visuales y coloridos con rich (tabla, panel, emojis, barras, etc.).
 - Guardar la tirada en un historial persistente (JSON o SQLite).
 - Permitir ver el historial en una tabla rich y/o exportarlo.
+
+Desarrollo:
+
+- Instalamos con python -m pip install rich el paquete rich para que reconozca los imports, y nos aseguramos
+con Ctrl + Shift + p en VS code en el campo Python: Python interpreter que está seleccionado el entorno correcto.
