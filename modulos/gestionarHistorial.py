@@ -11,7 +11,7 @@ def guardar_historial(entry, path="historial.json"):
     with open(path, "w") as f:
         json.dump(historial, f, indent=2)
 
-def cargar_historial(path="history.json"):
+def cargar_historial(path="historial.json"):
     try:
         with open(path, "r") as f:
             return json.load(f)
